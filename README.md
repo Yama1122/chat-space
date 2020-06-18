@@ -1,13 +1,14 @@
-# README
+# DB設計
+
 
 
 ## usersテーブル
 
 |Column|Type|Option|
 |------|----|------|
-|user_name|string|null: false|
+|user_name|string|index:true,null: false|
 |password|string|null:false|
-|email|string|null:false|
+|email|string|null:false,unique:true|
 
 ### Association
 - has_many :messages
