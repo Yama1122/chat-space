@@ -39,6 +39,8 @@
 
 ## users_groupsテーブル
 
+|Column|Type|Option|
+|------|----|------|
 |group_id|integer|null:false, foreign_key:true|
 |user_id|integer|null:false, foreign_key:true|
 
