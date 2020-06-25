@@ -78,14 +78,16 @@
       height:100px;
       padding-top:35px;
       margin-left:40px;
+      width:100%;
       &__name{
         color:#333333;
         font-size:20px;
         padding-bottom:15px;
       }
-      &__member{
+      &__members{
         color:#999999;
         font-size:12px;
+        display: flex;
       }
     }
     &__right{
