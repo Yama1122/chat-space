@@ -112,6 +112,7 @@
     height:calc(100vh - 190px);
     padding:0 40px;
     padding-top:35px;
+    overflow: scroll;
     &__container{
         padding-bottom:46px;
       &__info{
